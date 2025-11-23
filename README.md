@@ -3,6 +3,7 @@ A clean, interactive, and responsive quiz application built using HTML, CSS, and
 This project allows users to choose a subject—Operating Systems (OS), Computer Networks (CN), Database Management Systems (DBMS), or Java—and attempt a five-question quiz based on real CS concepts.
 <br>
 Features : 
+<br>
 1.Subject Selection Screen : 
 Choose from four major Computer Science subjects.
 <br>
