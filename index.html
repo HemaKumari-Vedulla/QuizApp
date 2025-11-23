@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Quiz App</h2>
+
+        <!-- HOME SCREEN -->
+        <div id="home-screen">
+            <h3>Select a subject</h3>
+            <select id="subject-select">
+                <option value="">--Choose Subject--</option>
+                <option value="os">Operating Systems</option>
+                <option value="cn">Computer Networks</option>
+                <option value="dbms">Database Management System</option>
+                <option value="java">Java</option>
+            </select>
+            <button class="btn" onclick="startQuiz()">Start Quiz</button>
+        </div>
+
+        <!-- QUIZ SCREEN -->
+        <div id="quiz-screen" class="hidden">
+            <h3 id="question"></h3>
+            <div id="options"></div>
+            <button class="btn" onclick="endQuiz()">Finish Quiz</button>
+        </div>
+
+        <!-- RESULT SCREEN -->
+        <div id="result-screen" class="hidden">
+            <h3 id="score"></h3>
+            <p>Thank You for taking the quiz!</p>
+            <button class="btn" onclick="goHome()">Back to Home Screen</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
